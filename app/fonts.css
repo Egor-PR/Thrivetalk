@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "larsseit_regular";
+  src: url(./fonts/larsseit_regular.ttf);
+  src: url(./fonts/larsseit_regular.ttf) format("truetype");
+  font-style:normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "larsseit_regular";
+  src: url(./fonts/larsseit_regular.ttf);
+  src: url(./fonts/larsseit_regular.ttf) format("truetype");
+  font-style:inherit;
+  font-weight: 700;
+}

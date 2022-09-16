@@ -1,0 +1,28 @@
+.block__pic-bg {
+  width: 807px;
+  height: 544px;
+  border-radius: 35%;
+  background: #EDFDFF;
+  background-repeat: no-repeat;
+  left: 45%;
+  bottom: 0;
+  top: 0%;
+
+  transform: rotate(-50deg);
+  position: absolute;
+}
+
+.block__img {
+  position: absolute;
+  width: 807px;
+  height: 544px;
+  border-radius: 35%;
+  z-index: 1;
+  left: 55%;
+  bottom: 0;
+  top: 15%;
+
+  transform: rotate(-25deg);
+}
+
+

@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  background-color: #F4F9E2;
+
+}
+
+.hero__content {
+  display: flex;
+
+}
+
+.hero__block-pic {
+  display: flex;
+  transform: translate(10%);
+}
+
+.hero__content-block {
+  display: flex;
+  flex-direction: column;
+  margin: 180px 0 0 0;
+}
+
+.hero__block-subtitle {
+  color: #62D0DF;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  padding: 0 0 30px 0;
+}
+
+.hero__block-title {
+  font-size: 45px;
+  line-height: 95%;
+  font-weight: bold;
+  color: #22356F;
+  letter-spacing: -3.5%;
+  padding: 0 0 35px 0;
+}
+.hero__block-text {
+  color: #22356F;
+  font-size: 24px;
+  line-height: 150%;
+  padding: 0 0 30px 0;
+}

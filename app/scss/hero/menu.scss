@@ -1,0 +1,36 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  margin-right: 25px;
+
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu__link {
+  position: relative;
+  color: #22356F;
+  font-size: 14px;
+  line-height: 95%;
+  &:hover{
+    font-weight: bold;
+  }
+}
+
+.menu__line {
+  &:after {
+    position: absolute;
+    content: "";
+    width: 31px;
+    height: 0px;
+    top: 33px;
+    left: 0;
+    transform: rotate(180deg);
+    border: 1px solid #22356F;
+  }
+}

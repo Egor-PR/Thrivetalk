@@ -1,0 +1,28 @@
+.category {
+    position: relative;
+    padding: 0 0 77px 0;
+}
+
+.categoty__list {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.category__item {
+    margin  : 29px;
+
+}
+
+.category-item-title {
+    color: #22356F;
+    font-size: 28px;
+    line-height: 33px;
+    padding: 0 0 25px 0;
+}
+.category-item-text {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(34, 53, 111, 0.5);
+}

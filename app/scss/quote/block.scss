@@ -1,0 +1,30 @@
+.block__content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 0 30px;
+}
+
+.block__content-title {
+    font-size: 26px;
+    line-height: 53px;
+    color: #22356F;
+   
+
+}
+
+.block__content-text {
+   
+    color: #22356F;
+    font-size: 16px;
+    line-height: 12px;
+
+}
+.block__content-colortext{
+    color: #6CD3E1;
+}
+.block__content-subtitle{
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+}

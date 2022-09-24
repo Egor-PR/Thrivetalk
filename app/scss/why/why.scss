@@ -1,0 +1,27 @@
+.why {
+    position: relative;
+    background: #62D0DF;
+
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+// .why__pic {
+//     display: flex;
+//     z-index: 1;
+//     position: absolute;
+//     left: 65%;
+//     bottom: 0;
+//     height:628px;
+// }    
+
+.why__content {
+    display: flex;
+   
+}
+
+.why__content-block {
+    display: flex;
+    flex-direction: row-reverse;
+}

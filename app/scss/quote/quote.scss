@@ -1,0 +1,24 @@
+    .quote {
+        position: relative;
+        background-color: #F4F9E2;
+        display: flex;
+        padding: 0 0 77px 0;
+    }
+    .quote__pic{
+        width: 470px;
+    }
+
+    .quote__block-pic {
+        display: flex;
+        z-index: 1;
+       
+    }
+
+    .quote__content {
+        display: flex;
+
+    }
+
+    .quote__block-content {
+        display: flex;
+    }

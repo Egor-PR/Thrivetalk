@@ -1,0 +1,15 @@
+.why {
+  position: relative;
+  background: #62D0DF;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.why__content {
+  display: flex;
+}
+
+.why__content-block {
+  display: flex;
+  flex-direction: row-reverse;
+}

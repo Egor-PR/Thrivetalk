@@ -1,0 +1,37 @@
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 120px 0;
+  background-color: #F4F9E2;
+}
+
+.about__content-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 0 120px 0;
+  margin: 150px 0 0 0;
+}
+
+.about__block-title {
+  font-size: 16px;
+  line-height: 23px;
+  padding: 0 225px 0 0;
+  color: #22356F;
+}
+
+.about__block-text {
+  font-size: 24px;
+  line-height: 34px;
+  color: #22356F;
+}
+
+.about__row-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+  margin: 70px 0 24px 0;
+}

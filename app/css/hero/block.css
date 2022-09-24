@@ -22,3 +22,19 @@
   top: 15%;
   transform: rotate(-25deg);
 }
+
+.block__button {
+  padding: 10px 30px 10px 30px;
+  background: #F9B640;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 23px;
+  border: none;
+  margin-right: 38px;
+}
+.block__button:last-child {
+  background: none;
+  margin-right: 0px;
+  color: #F9B640;
+}

@@ -1,0 +1,18 @@
+.excerption {
+  position: relative;
+  background-color: #F4F9E2;
+}
+
+.excerption__content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.excerption__column-block {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #22356F;
+  padding: 0 20px 0 20px;
+}

@@ -1,0 +1,29 @@
+.row__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px  0 0;
+    width: max-content;
+    &:last-child{
+        margin: 0 ;
+    }
+}
+
+.row__block-info {
+    font-size: 24px;
+    line-height: 11px;
+    color: #22356F;
+    padding: 0 0 50px 0;
+}
+
+.row__block-text {
+    font-size: 18px;
+    line-height: 23px;
+    color: #22356F80;
+    padding: 0 0 20px 0;
+}
+.row__block-link{
+    color: #006DFF;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+}

@@ -8,13 +8,33 @@
   line-height: 53px;
 }
 
+@media screen and (max-width: 992px) {
+  .column__block-subtitle {
+    font-size: 18px;
+  }
+}
 .column__block-title {
   font-size: 48px;
   line-height: 94px;
 }
 
+@media screen and (max-width: 992px) {
+  .column__block-title {
+    font-size: 26px;
+  }
+}
 .column__block-text {
   font-size: 16px;
   line-height: 23px;
   color: #62D0DF;
+}
+
+.column__block-button {
+  display: flex;
+  width: fit-content;
+}
+.column__block-button:hover {
+  background: #FFFFFF;
+  color: #22356F;
+  transition: 0.5s;
 }

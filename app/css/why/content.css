@@ -15,7 +15,18 @@
   line-height: 35px;
 }
 
+@media screen and (max-width: 992px) {
+  .content__block-text {
+    width: 100%;
+    font-size: 21px;
+  }
+}
 .content__block-img {
   transform: translate(33%);
-  height: max-content;
+}
+
+@media screen and (max-width: 992px) {
+  .content__block-img {
+    display: none;
+  }
 }

@@ -16,3 +16,20 @@
   background-color: #22356F;
   padding: 0 20px 0 20px;
 }
+
+@media screen and (max-width: 690px) {
+  .excerption__column-block {
+    padding: 50px 0 0 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .excerption__pic {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 690px) {
+  .excerption__pic {
+    display: none;
+  }
+}

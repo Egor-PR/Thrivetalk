@@ -6,13 +6,25 @@
 
 .hero__content {
   display: flex;
+  flex-direction: column;
+  margin: 0 0 0 50px;
 }
 
+@media screen and (max-width: 992px) {
+  .hero__content {
+    margin: 0;
+  }
+}
 .hero__block-pic {
   display: flex;
   transform: translate(10%);
 }
 
+@media screen and (max-width: 992px) {
+  .hero__block-pic {
+    display: none;
+  }
+}
 .hero__content-block {
   display: flex;
   flex-direction: column;

@@ -35,9 +35,18 @@
   border: none;
   margin-right: 38px;
 
+  &:first-child {
+    &:hover {
+      background: none;
+      color: #F9B640;
+      transition: 0.5s;
+    }
+  }
+
   &:last-child {
     background: none;
     margin-right: 0px;
     color: #F9B640;
+    transition: 0.5s;
   }
 }

@@ -3,6 +3,12 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 992px) {
+  .row__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .row__item {
   position: relative;
   width: 237px;

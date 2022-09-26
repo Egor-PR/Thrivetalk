@@ -3,11 +3,16 @@
   padding: 0 0 77px 0;
 }
 
-.categoty__list {
+.category__list {
   display: flex;
   flex-direction: row;
 }
 
+@media screen and (max-width: 992px) {
+  .category__list {
+    flex-direction: column;
+  }
+}
 .category__item {
   margin: 29px;
 }

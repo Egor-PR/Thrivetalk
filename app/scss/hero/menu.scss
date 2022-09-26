@@ -18,10 +18,14 @@
   font-size: 14px;
   line-height: 95%;
   &:hover{
-    font-weight: bold;
+    font-size: medium;
   }
 }
-
+@media screen and (max-width:690px) {
+  .menu__link{
+   display: none;
+  }
+}
 .menu__line {
   &:after {
     position: absolute;

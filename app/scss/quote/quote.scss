@@ -7,6 +7,17 @@
     .quote__pic{
         width: 470px;
     }
+    @media screen and (max-width:992px) {
+        .quote__pic{
+        width: 100%;
+        object-fit: cover;
+        }
+      }
+      @media screen and (max-width:690px) {
+        .quote__pic{
+       display: none;
+        }
+      }
 
     .quote__block-pic {
         display: flex;

@@ -22,7 +22,6 @@ a {
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 .wrapper {
@@ -33,12 +32,32 @@ a {
 }
 
 .container {
-  width: 950px;
+  max-width: 1200px;
   margin: 0 auto;
-  // display: flex;
-  //  flex-direction: column;
   height: 95%;
+  padding: 0 15px;
 }
+@media screen and (max-width:1200px){
+  .container{
+    max-width:  970px;
+  }
+}
+@media screen and (max-width:992px) {
+  .container{
+    max-width: 750px;
+  }
+}
+@media screen and (max-width:767px) {
+  .container{
+    max-width: 675px;
+  }
+}
+@media screen and (max-width:690px) {
+  .container{
+    max-width: none;
+  }
+}
+
 
 .maincontent {
   height: 100%;
@@ -46,5 +65,5 @@ a {
 
 .section {
   // height: 100vh;
- //  min-height: 840px;
+  //  min-height: 840px;
 }

@@ -17,9 +17,14 @@
   line-height: 95%;
 }
 .menu__link:hover {
-  font-weight: bold;
+  font-size: medium;
 }
 
+@media screen and (max-width: 690px) {
+  .menu__link {
+    display: none;
+  }
+}
 .menu__line:after {
   position: absolute;
   content: "";

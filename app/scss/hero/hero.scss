@@ -35,6 +35,17 @@
   margin: 180px 0 0 0;
 }
 
+@media screen and (max-width:992px) {
+  .hero__content-block {
+    margin: 35px 0 0 0;
+  }
+
+  .hero__block-subtitle {
+    display: none;
+  }
+
+}
+
 .hero__block-subtitle {
   color: #62D0DF;
   font-size: 24px;

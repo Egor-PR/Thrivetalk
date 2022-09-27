@@ -16,6 +16,9 @@
   .header__logo {
     font-size: 28px;
   }
+  .header {
+    align-items: normal;
+  }
 }
 .header__button {
   background-color: #62D0DF;
@@ -23,14 +26,16 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 767px) {
-  .btn {
-    display: none;
-  }
-}
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1190px) {
   .header .header__button {
     display: none;
+  }
+  .header .header__menu {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 15px;
+    padding: 5px 10px 0 10px;
   }
 }
 .header__menu {
@@ -87,13 +92,13 @@
   .header__menu.show-menu:before {
     transform: rotate(45deg) scale(0.8);
     top: 6px;
-    background-color: #009FE3;
+    background-color: #000000;
     transition: 0.5s;
   }
   .header__menu.show-menu:after {
     transform: rotate(-45deg) scale(0.8);
     bottom: 7px;
-    background-color: #009FE3;
+    background-color: #000000;
     transition: 0.5s;
   }
   .header__menu.show-menu span {
